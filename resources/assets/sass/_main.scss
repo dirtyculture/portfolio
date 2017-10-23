@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+html, body {
+    font-family: 'Dosis', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $white;
+    color: $black-dark;
+    background-image: url('/img/bg/lightpaperfibers.png');
+}
+nav {
+  overflow: hidden;
+  padding: 1em 0;
+  li {
+      list-style-type: none;
+      float: left;
+      margin-right: .5em;
+      margin-top: .7em;
+  }
+  li:last-child {
+      margin-right: 0;
+  }
+  a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: $black-dark;
+  }
+  h1 {
+    font-weight: 300;
+  }
+  .nav-pages {
+    float: right;
+  }
+  .brand {
+    float: left;
+    font-family: 'Shadows Into Light', cursive;
+    margin-right: 1em;
+    color: $grey;
+  }
+}
+.container {
+    width: 50%;
+    margin: 0 auto;
+    &.grey {
+      background-color: $grey;
+    }
+}
+.btn {
+  padding: .2em .5em;
+  &.active {
+    color: $blue-sky;
+    &:hover {
+    }
+  }
+  &:hover {
+    border-bottom: 1px solid $blue-sky;
+  }
+}
+.marker-blue {
+  color: $blue-sky;
+}
+#webdesign {
+  height: 100%;
+  background-color: $grey;
+}
+.main-slider {
+  .hidden {
+    display: none;
+  }
+  li {
+    list-style-type: none;
+    position: relative;
+  }
+  h2 {
+    font-size: 8em;
+    font-weight: 200;
+  }
+  h4 {
+    text-transform: uppercase;
+    a {
+      text-decoration: none;
+      color: inherit;
+      font-size: 80%;
+    }
+  }
+  .section-box {
+    > div {
+      position: relative;
+    }
+    header {
+      position: absolute;
+      top: 4em;
+      left: 20%;
+    }
+    .in-box-left {
+      float: left;
+      &.small {
+        width: 30%;
+      }
+      &.big {
+        width: 70%;
+      }
+    }
+    .in-box-right {
+      float: left;
+      &.small {
+        width: 30%;
+      }
+      &.big {
+        width: 70%;
+      }
+    }
+    .slide-text {
+      position: absolute;
+      top: 0;
+      left: 0;
+      &.bottom {
+        top: 18em;
+        left: -8em;
+      }
+    }
+  }
+}

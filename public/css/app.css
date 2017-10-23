@@ -1,0 +1,155 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis);@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);* {
+  margin: 0;
+  padding: 0;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+html,
+body {
+  font-family: 'Dosis', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #FFFAF5;
+  color: #0D0D0D;
+  background-image: url("/img/bg/lightpaperfibers.png");
+}
+
+nav {
+  overflow: hidden;
+  padding: 1em 0;
+}
+
+nav li {
+  list-style-type: none;
+  float: left;
+  margin-right: .5em;
+  margin-top: .7em;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #0D0D0D;
+}
+
+nav h1 {
+  font-weight: 300;
+}
+
+nav .nav-pages {
+  float: right;
+}
+
+nav .brand {
+  float: left;
+  font-family: 'Shadows Into Light', cursive;
+  margin-right: 1em;
+  color: #D9D0C8;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.container.grey {
+  background-color: #D9D0C8;
+}
+
+.btn {
+  padding: .2em .5em;
+}
+
+.btn.active {
+  color: #0094FF;
+}
+
+.btn:hover {
+  border-bottom: 1px solid #0094FF;
+}
+
+.marker-blue {
+  color: #0094FF;
+}
+
+#webdesign {
+  height: 100%;
+  background-color: #D9D0C8;
+}
+
+.main-slider .hidden {
+  display: none;
+}
+
+.main-slider li {
+  list-style-type: none;
+  position: relative;
+}
+
+.main-slider h2 {
+  font-size: 8em;
+  font-weight: 200;
+}
+
+.main-slider h4 {
+  text-transform: uppercase;
+}
+
+.main-slider h4 a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 80%;
+}
+
+.main-slider .section-box > div {
+  position: relative;
+}
+
+.main-slider .section-box header {
+  position: absolute;
+  top: 4em;
+  left: 20%;
+}
+
+.main-slider .section-box .in-box-left {
+  float: left;
+}
+
+.main-slider .section-box .in-box-left.small {
+  width: 30%;
+}
+
+.main-slider .section-box .in-box-left.big {
+  width: 70%;
+}
+
+.main-slider .section-box .in-box-right {
+  float: left;
+}
+
+.main-slider .section-box .in-box-right.small {
+  width: 30%;
+}
+
+.main-slider .section-box .in-box-right.big {
+  width: 70%;
+}
+
+.main-slider .section-box .slide-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main-slider .section-box .slide-text.bottom {
+  top: 18em;
+  left: -8em;
+}
+
